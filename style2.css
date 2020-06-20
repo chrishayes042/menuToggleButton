@@ -1,7 +1,7 @@
 *{
     padding: 0; border: 0; margin: 0; 
     box-sizing: border-box;
-    list-style-type: none; /* Styled in normalize.css */
+    list-style-type: none; 
     text-decoration: none;
     color: #ccc;
 }
@@ -27,10 +27,10 @@ body{
 }
 
 .masthead{
-    /* Both of these are needed to keep the #menu-toggle visible when nav list is active / open. */
+    /* these are needed to keep the #menu-toggle visible when nav list is active / open. */
     position: relative;
     z-index: 1000;
-    /********************************/
+    
     top: 0;
     left: 0;
     width: 100%;
